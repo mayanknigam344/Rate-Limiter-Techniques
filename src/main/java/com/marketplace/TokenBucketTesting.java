@@ -37,12 +37,12 @@ public class TokenBucketTesting {
         System.out.println("Test 5 - Wait for full refill (3 seconds):");
         Thread.sleep(3000);
 
-        // Now, we should be able to make 3 more requests
+        // Now, we should be able to make 3 more requests.
         for (int i = 0; i < 3; i++) {
             System.out.println("Request " + (i + 8) + ": " + tokenBucketRateLimiter.allowRequest("clientId"));  // Should be true
         }
 
-        // Test 6: No tokens left, should be denied
+        // Test 6: No tokens left, should be denied.
         System.out.println("Test 6 - Bucket exhausted again:");
         System.out.println("Request 11: " + tokenBucketRateLimiter.allowRequest("clientId"));  // Should be false
     }
