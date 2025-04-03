@@ -1,9 +1,8 @@
-package com.marketplace;
+package com.ratelimiter;
 
-import com.marketplace.service.FixedWindowRateLimiter;
-import com.marketplace.service.RateLimiter;
-import com.marketplace.service.SlidingWindowRateLimiter;
-import com.marketplace.service.TokenBucketRateLimiter;
+import com.ratelimiter.service.FixedWindowRateLimiter;
+import com.ratelimiter.service.RateLimiter;
+import com.ratelimiter.service.SlidingWindowRateLimiter;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {

@@ -1,4 +1,4 @@
-package com.marketplace.service;
+package com.ratelimiter.service;
 
 import java.util.concurrent.ConcurrentHashMap;
 

@@ -1,7 +1,7 @@
-package com.marketplace;
+package com.ratelimiter;
 
-import com.marketplace.service.RateLimiter;
-import com.marketplace.service.TokenBucketRateLimiter;
+import com.ratelimiter.service.RateLimiter;
+import com.ratelimiter.service.TokenBucketRateLimiter;
 
 public class TokenBucketTesting {
     public static void main(String[] args) throws InterruptedException {

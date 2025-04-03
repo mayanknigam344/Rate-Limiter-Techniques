@@ -1,6 +1,6 @@
-package com.marketplace;
+package com.ratelimiter;
 
-import com.marketplace.service.LeakyBucketRateLimiter;
+import com.ratelimiter.service.LeakyBucketRateLimiter;
 
 public class LeakyBucketTesting {
     public static void main(String[] args) throws InterruptedException {
